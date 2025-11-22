@@ -1,5 +1,5 @@
 def busqueda_secuencia(lista, objetivo):
-    for i, valor enumerate(lista):
+    for i, valor in enumerate(lista):
         if valor == objetivo:
             return lista[i]
         else:
